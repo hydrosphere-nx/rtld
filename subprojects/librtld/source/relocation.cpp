@@ -97,6 +97,7 @@ inline void relocate_self(char *alsr_base, Elf_Dyn *dynamic) {
             i++;
         }
     }
+
 }
 
 extern "C" void __rtld_relocate_modules(char *aslr_base, Elf_Dyn *dynamic) {
